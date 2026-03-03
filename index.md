@@ -11,15 +11,16 @@ header:
     - label: "Contattami"
       url: "/contatti/"
 excerpt: >
-  Sviluppatore software specializzato in applicazioni **enterprise Java**, 
+  Sviluppatore software specializzato in applicazioni **enterprise Java**,
   consulente IT con esperienza ventennale nel settore bancario e finanziario.
   Con base a Trento, **disponibile da remoto in tutta Italia**.
 
 intro:
   - excerpt: >
       Lavoro come sviluppatore esterno su sistemi enterprise complessi, con competenze
-      Full Stack con tecnologia backend Java/Spring Boot/Microservizi al frontend Angular(fino alle 19) anche AngularJS, e progettazione di sistemi.
-	  Lato db buona conoscenza SQL/Oracle/Mongo all'integrazione con strumenti di reporting e monitoraggio.
+      full stack: dal backend Java / Spring Boot / Microservizi al frontend AngularJS,
+      dalla progettazione database SQL Server / Oracle / MongoDB
+      all'integrazione con strumenti di reporting e monitoraggio.
 ---
 
 {% include feature_row id="intro" type="center" %}
