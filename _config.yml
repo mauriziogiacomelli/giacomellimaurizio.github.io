@@ -1,19 +1,74 @@
 title: "Maurizio Giacomelli"
-name: "Maurizio Giacomelli"
-description: "Software Developer & IT Consultant"
+tagline: "Software Developer & IT Consultant"
+description: >-
+  Sviluppatore software con esperienza in applicazioni enterprise Java, 
+  full stack development e consulenza IT. Specializzato in Java Spring Boot, 
+  AngularJS e integrazione sistemi complessi in ambito bancario e finanziario.
 url: "https://giacomellimaurizio.github.io"
+baseurl: ""
+
+locale: "it-IT"
+name: "Maurizio Giacomelli"
+email: "mauriziogiacomelli@gmail.com" # aggiungi la tua email
 
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "dark" # oppure: default, air, contrast, mint, sunrise
+minimal_mistakes_skin: "dark"
 
+# SEO
+twitter:
+  username: ""
+og_image: "/assets/images/bio-photo.jpg"
+
+# Author
 author:
   name: "Maurizio Giacomelli"
-  bio: "Sviluppatore Java & Full Stack, specializzato in applicazioni enterprise"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Software Developer & IT Consultant · Java · Spring Boot · AngularJS · Trento, Italia"
   location: "Trento, Italia"
+  email: "mauriziogiacomelli@gmail.com" # aggiungi la tua email
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/giacomellimaurizio/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:mauriziogiacomelli@gmail.com"
+      url: "mauriziogiacomelli@gmail.com" # aggiungi la tua email
+
+# Navigation
+navigation:
+  - title: "Chi sono"
+    url: /chi-sono/
+  - title: "Servizi"
+    url: /servizi/
+  - title: "Stack"
+    url: /stack/
+  - title: "Contatti"
+    url: /contatti/
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true

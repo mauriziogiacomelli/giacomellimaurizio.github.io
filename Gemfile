@@ -1,2 +1,10 @@
 source "https://rubygems.org"
-gem "minimal-mistakes-jekyll"
+
+gem "minimal-mistakes-jekyll", "~> 4.26"
+
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+  gem "jekyll-include-cache"
+end

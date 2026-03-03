@@ -1,0 +1,9 @@
+main:
+  - title: "Chi sono"
+    url: /chi-sono/
+  - title: "Servizi"
+    url: /servizi/
+  - title: "Stack"
+    url: /stack/
+  - title: "Contatti"
+    url: /contatti/
